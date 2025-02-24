@@ -19,7 +19,7 @@ class CardSelectionStep extends StatelessWidget {
       type: 'Visa',
       description: 'Carte Visa pour les voyages internationaux',
       currency: 'USD',
-      image: 'assets/images/visa.jpg',
+      image: 'images/visa.jpg',
       availableAmounts: [25, 50, 100, 200],
     ),
     PrepaidCard(
@@ -28,7 +28,7 @@ class CardSelectionStep extends StatelessWidget {
       type: 'MasterCard',
       description: 'Carte MasterCard pour vos achats',
       currency: 'EUR',
-      image: 'assets/images/mastercard.jpg',
+      image: 'images/mastercard.jpg',
       availableAmounts: [20, 30, 50, 100],
     ),
     // Ajoutez d'autres cartes si nécessaire

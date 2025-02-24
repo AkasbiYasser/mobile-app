@@ -41,47 +41,58 @@ class _GiftCardsScreenState extends State<GiftCardsScreen> {
   final List<Map<String, dynamic>> products = [
     {
       'id': 1,
-      'name': 'Visa Gift Card',
-      'type': 'Payment',
+      'name': 'Amazon Gift Card',
+      'type': 'Shopping',
       'price': 50,
       'currency': 'USD',
-      'image': 'assets/images/visa.jpg',
+      'image': 'images/amazon.jpg',
       'rating': 4.5,
-      'category': 'Payment',
-      'description': 'Carte cadeau Visa utilisable partout'
+      'category': 'Shopping',
+      'description': 'Carte cadeau Amazon'
     },
     {
       'id': 2,
-      'name': 'MasterCard Gift Card',
-      'type': 'Payment',
+      'name': 'iTunes Gift Card',
+      'type': 'Musique',
       'price': 25,
       'currency': 'USD',
-      'image': 'assets/images/mastercard.jpg',
+      'image': 'images/itunes.png',
       'rating': 4.2,
-      'category': 'Payment',
-      'description': 'Carte cadeau MasterCard'
+      'category': 'Musique',
+      'description': 'Pour acheter de la musique, des apps et plus'
     },
     {
       'id': 3,
-      'name': 'PayPal Gift Card',
-      'type': 'Payment',
+      'name': 'Steam Gift Card',
+      'type': 'Jeux',
       'price': 20,
       'currency': 'USD',
-      'image': 'assets/images/paypal.jpg',
+      'image': 'images/steam.png',
       'rating': 4.7,
-      'category': 'Payment',
-      'description': 'Crédit PayPal'
+      'category': 'Jeux',
+      'description': 'Crédit pour acheter des jeux sur Steam'
     },
     {
       'id': 4,
-      'name': 'Apple Pay Gift Card',
-      'type': 'Payment',
+      'name': 'Netflix Gift Card',
+      'type': 'Streaming',
       'price': 30,
       'currency': 'USD',
-      'image': 'assets/images/applepay.jpg',
+      'image': 'images/netflix.jpg',
       'rating': 4.8,
-      'category': 'Payment',
-      'description': 'Carte cadeau Apple Pay'
+      'category': 'Streaming',
+      'description': 'Accédez à des milliers de films et séries'
+    },
+    {
+      'id': 5,
+      'name': 'PlayStation Store',
+      'type': 'Jeux',
+      'price': 50,
+      'currency': 'USD',
+      'image': 'images/psn.png',
+      'rating': 4.6,
+      'category': 'Jeux',
+      'description': 'Pour le PlayStation Store'
     },
   ];
 

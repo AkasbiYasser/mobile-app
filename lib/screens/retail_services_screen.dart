@@ -23,31 +23,31 @@ class _RetailServicesScreenState extends State<RetailServicesScreen> {
     {
       'id': 'pharmacy',
       'name': 'Pharmacie',
-      'icon': Icons.local_pharmacy,
+      'image': 'images/pharmacy.jpg',
       'color': Color(0xFF4CAF50),
     },
     {
       'id': 'supermarkets',
       'name': 'Supermarchés',
-      'icon': Icons.shopping_cart,
+      'image': 'images/super.PNG',
       'color': Color(0xFF2196F3),
     },
     {
       'id': 'technology',
       'name': 'Technologie',
-      'icon': Icons.computer,
+      'image': 'images/tec.PNG',
       'color': Color(0xFF9C27B0),
     },
     {
       'id': 'fashion',
       'name': 'Mode',
-      'icon': Icons.checkroom,
+      'image': 'images/fashion.png',
       'color': Color(0xFFE91E63),
     },
     {
       'id': 'home',
       'name': 'Maison',
-      'icon': Icons.home,
+      'image': 'images/home.png',
       'color': Color(0xFF795548),
     },
     {
@@ -249,7 +249,7 @@ class _RetailServicesScreenState extends State<RetailServicesScreen> {
                           color: Colors.white.withOpacity(0.2),
                         ),
                         child: Icon(
-                          category['icon'],
+                          Icons.local_pharmacy,
                           size: 30,
                           color: Colors.white,
                         ),
