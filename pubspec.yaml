@@ -1,0 +1,54 @@
+name: projet
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/airpods.jpg
+    - assets/images/am.jpg
+    - assets/images/amazon.jpg
+    - assets/images/applepay.jpg
+    - assets/images/at.png
+    - assets/images/back.jpg
+    - assets/images/banana.jpeg
+    - assets/images/fashion.png
+    - assets/images/home.png
+    - assets/images/inwi.png
+    - assets/images/itunes.png
+    - assets/images/logo.jpg
+    - assets/images/logo.png
+    - assets/images/logoplatform.jpg
+    - assets/images/logoplatform.png
+    - assets/images/ma.png
+    - assets/images/maroc.png
+    - assets/images/mastercard.jpg
+    - assets/images/netflix.jpg
+    - assets/images/orange.png
+    - assets/images/paypal.jpg
+    - assets/images/pharmacy.jpg
+    - assets/images/play.png
+    - assets/images/psn.png
+    - assets/images/steam.png
+    - assets/images/super.PNG
+    - assets/images/tec.PNG
+    - assets/images/visa.jpg
